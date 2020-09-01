@@ -6,7 +6,7 @@ public class DarBonificacao {
         
         // Considerei Engenheiros e Secretários como sendo funcionários comuns
         Engenheiros engenheiro = new Engenheiros();
-        engenheiro.Engenheiros("Hamienos Rocha", "Engenheiro", 10000); // R$ 10.000/mês --> sonho lindo kkkk
+        engenheiro.Engenheiros("Hamienos Rocha", "Engenheiro", 10000);
         engenheiro.bonificacao();
         System.out.println("Funcionário: " + engenheiro.getNome());
         System.out.println("Cargo: " + engenheiro.getCargo());
@@ -14,7 +14,7 @@ public class DarBonificacao {
         System.out.println("Salário com bônus R$ : " + engenheiro.bonificacao());
         
         Secretarios secretario = new Secretarios();
-        secretario.Secretarios("Marcos", "Secretário", 5000); // por alguma razão tá ganhando menos kkk
+        secretario.Secretarios("Marcos", "Secretário", 5000);
         secretario.bonificacao();
         System.out.println("\nFuncionário: " + secretario.getNome());
         System.out.println("Cargo: " + secretario.getCargo());
@@ -22,7 +22,7 @@ public class DarBonificacao {
         System.out.println("Salário com bônus R$ : " + secretario.bonificacao());
         
         Gerentes gerente = new Gerentes();
-        gerente.Gerentes("João", "Gerente", 15000); // esse ganha mais um tanto kkk
+        gerente.Gerentes("João", "Gerente", 15000);
         gerente.bonificacao();
         System.out.println("\nFuncionário: " + gerente.getNome());
         System.out.println("Cargo: " + gerente.getCargo());
@@ -30,7 +30,7 @@ public class DarBonificacao {
         System.out.println("Salário com bônus R$ : " + gerente.bonificacao());
         
         Diretores diretor = new Diretores();
-        diretor.Diretores("Grande Ladislau", "Secretário", 50000); // esse é o bichão kkk
+        diretor.Diretores("Grande Ladislau", "Secretário", 50000);
         diretor.bonificacao();
         System.out.println("\nFuncionário: " + diretor.getNome());
         System.out.println("Cargo: " + diretor.getCargo());
